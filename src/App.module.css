@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(143, 171, 162);
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(41, 37, 37);
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 10px;
+  background-color: rgb(143, 171, 162);
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #e74545;
+  color: white;
+}
